@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <mea charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejemplode Elementos Flotantes</title>
+        <style>
+            /*Estilos para los elementos flotantes*/ 
+            .flotante-izquierda{
+                float: left;
+                margin-right: 20px; /*Espacio entre los elementos flotantes*/
+            }
+
+            .flotante-derecha{
+                float: right;
+                margin-left: 20px; /*Espacio entre los elementos flotantes*/
+            }
+
+            /*Etilos para el contenedor*/ 
+            .contenedor{
+                border: 1px solid #000;
+                padding: 20px;
+                overflow: auto; /*Limpiar los elementos flotantes */
+            }
+
+            /*Estilos para los elementos de texto*/ 
+            p{
+                margin-bottom: 10px;
+            }
+        </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="flotante-izquierda">
+            <img 
+alt="Imagen Izquierda">
+        </div>
+        <div class="flotante-derecha">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGT3RJ6R6UTZ6ACB_IN4VenFOPzzgAEudatQ&s" alt="Imagen Derecha">
+        </div>
+        <p>Sylvanian Families son una linea de jugutes de figurillas de animales de peluche con vestimentay accesorios que representan una comunidad ficticia de animales antropormorficos que viven en un mundo imaginario llamado sylvanian Village. Fomentan el juego imaginativo y la creatividad.</p>
+        <p>Los juguetes fueron creados por la compañia japonesa Epoch en 1985</p>
+    </div>
+</body>
+</html>
